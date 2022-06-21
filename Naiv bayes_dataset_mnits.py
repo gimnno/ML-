@@ -110,3 +110,4 @@ ConfusionMatrixDisplay.from_estimator(clf, X_test_pca, y_test, display_labels=ta
 import matplotlib.pyplot as plt
 plt.tight_layout()
 plt.show()
+
