@@ -1,4 +1,7 @@
-""" following program performs SVM algorithm of machine learning for the dataset Mnits """
+
+""" following program performs SVM algorithm of machine learning for the dataset Mnits 
+    ref: https://github.com/gimnno/ML-/blob/main/svm_mnits%20dataset.py 
+"""
 #%% Loading the data
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
