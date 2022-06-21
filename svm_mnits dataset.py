@@ -1,3 +1,7 @@
+
+
+"" following program performs SVM algorithm of machine learning for the dataset Mnits  ""
+
 #%% Loading the data
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
