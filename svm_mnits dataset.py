@@ -1,7 +1,4 @@
-
-
-"" following program performs SVM algorithm of machine learning for the dataset Mnits  ""
-
+""" following program performs SVM algorithm of machine learning for the dataset Mnits """
 #%% Loading the data
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
@@ -71,6 +68,7 @@ X_test_pca = pca.transform(x_test)
 # Hyperparameter Tuning: Randomized search on hyper parameters
 from sklearn.model_selection import RandomizedSearchCV
 # parameter list as dic, builds different possible combinatorial parameter pairs 
+    # note: Depending on the computing capacity, can several parameters be included in the optimization process.
 param_grid = { 
     "C": [1, 2], 
     'kernel': ['linear'
